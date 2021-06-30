@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+     
+    background: url(khan.webp);
+  
+}
+.left{
+
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+    top: 16px;
+  
+    
+}
+.left img{
+    width: 109px;
+    margin: auto;
+    padding: 0 7px;
+
+}
+.left div{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+.mid{
+    display: block;
+   
+    margin: 21px auto;
+    width: 511px;
+    padding: 4px;
+
+}
+.btn{
+    margin: 15px 8px;
+    background-color: rgb(85, 3, 48);
+    color: white;
+    border-radius: 34px;
+    padding: 8px 22px;
+    cursor: pointer;
+}
+.btn:hover{
+  
+    background-color: rgb(132, 87, 190);
+    
+}
+
+.group_form input{
+    text-align: center;
+    display: block;
+    width: 700px;
+    margin: 14px auto;
+    padding: 15px 10px;
+    font-size: 25px;
+    font-style: oblique;
+    
+}
+.right{
+   
+    display: inline-block;
+    position: absolute;
+    right:34px;
+    top: 25px;
+}
+.container{
+    margin: 254px 242px;
+    padding: 38px 135px;
+  
+    width: 700px;
+}
+.container .btn{
+    margin: 19px 300px;
+    padding: 9px 31px
+    
+}
+.container h3{
+    text-align: center;
+    color:#000000;
+    font-size: 50px;
+}
+.navbar{
+display: inline-block;
+text-decoration:none ;
+}
+.navbar li{
+    display: inline-block;
+     text-decoration:none ;
+     font-size: 29px;
+}
+.navbar li a{
+ margin: 3px;
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    color: rgb(132, 87, 190);
+    text-decoration: underline;
+
+}
